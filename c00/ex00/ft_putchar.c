@@ -7,5 +7,8 @@ void	ft_putchar(char c)
 
 int main()
 {
-	ft_putchar('w');
+	ft_putchar('o');
+	ft_putchar('t');
+	ft_putchar('y');
+	ft_putchar('\n');
 }
