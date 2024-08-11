@@ -17,7 +17,7 @@ void    ft_putstr(char *str)
 
 int main()
 {
-    char *oty = "Hello, I'm Othmane Tamejjou 👋 I am a Software Engineering student";
+    char *oty = "Hello,  I'm Othmane Tamejjou 👋 I am a Software Engineering student";
     
     ft_putstr(oty);
 }
