@@ -26,7 +26,7 @@ int main()
 {
     int oty[] ={1,2,3,4,5,6};
 
-    ft_rev_int_tab(oty,5);
+    ft_rev_int_tab(oty,6);
 
     int i = 0;
     while (i <= 5)
