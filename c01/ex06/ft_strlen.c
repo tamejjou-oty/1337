@@ -1,8 +1,4 @@
-#include <unistd.h>
-void    ft_putchar(char c)
-{
-    write(1, &c ,1);
-}    
+#include <stdio.h>
 
 int ft_strlen(char *str)
 {
@@ -13,19 +9,9 @@ int ft_strlen(char *str)
     }
     return i;
 }
-void ft_putnbr(int n)
-{
-    if (n >= 10)
-    {
-        ft_putnbr(n / 10);
-    }
-    ft_putchar((n % 10 )+ '0');
-}
 
 int main()
 {
-    char *oty = "othman is your hhhh";
-
-    int num = ft_strlen(oty);
-    ft_putnbr(num);
+    char *oty = "othman is your friend";
+    printf("%d\n",ft_strlen(oty));
 }
