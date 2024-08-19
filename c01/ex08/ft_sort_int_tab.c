@@ -7,6 +7,7 @@ void	ft_sort_int_tab(int *tab, int size)
 	int		swap;
 
 	swap = 1;
+    
 	while (swap != '\0')
 	{
 		swap = 0;
