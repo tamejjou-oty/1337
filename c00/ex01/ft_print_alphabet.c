@@ -10,7 +10,7 @@ void ft_print_alphabet(void)
     while(x <= 'z')
     {
         ft_putchar(x);
-        ft_putchar(' ');
+        ft_putchar(',');
         x++;
     }   
 }
